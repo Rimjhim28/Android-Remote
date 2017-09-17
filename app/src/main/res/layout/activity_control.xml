@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/button_stop"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+         />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+       android:layout_alignLeft="@id/button_stop"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="120dp"/>
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+       android:layout_alignBottom="@id/button_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/button_view_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view database"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
