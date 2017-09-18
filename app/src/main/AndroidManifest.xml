@@ -23,6 +23,8 @@
         <activity android:name=".ActionViewDatabase"
             android:parentActivityName=".Control"
             android:label="@string/app_name"/>
+         <activity android:name=".Control"
+            android:label="@string/app_name"/>
         <provider
             android:name=".data.ActionProvider"
             android:authorities="com.example.android.myapplication"
