@@ -51,9 +51,11 @@ public class Control extends AppCompatActivity {
                 switch(event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         insertData("UP button pressed");
+                        //TODO : Implement the command to Arduino
                         return true;
                     case MotionEvent.ACTION_UP:
                         insertData("UP button released");
+                        //TODO : Implement the command to Arduino
                         return true;
                 }
                 return false;
@@ -67,9 +69,11 @@ public class Control extends AppCompatActivity {
                 switch(event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         insertData("DOWN button pressed");
+                        //TODO : Implement the command to Arduino
                         return true;
                     case MotionEvent.ACTION_UP:
                         insertData("DOWN button released");
+                         //TODO : Implement the command to Arduino
                         return true;
                 }
                 return false;
@@ -83,9 +87,11 @@ public class Control extends AppCompatActivity {
                 switch(event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         insertData("LEFT button pressed");
+                         //TODO : Implement the command to Arduino
                         return true;
                     case MotionEvent.ACTION_UP:
                         insertData("LEFT button released");
+                         //TODO : Implement the command to Arduino
                         return true;
                 }
                 return false;
@@ -99,9 +105,11 @@ public class Control extends AppCompatActivity {
                 switch(event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         insertData("RIGHT button pressed");
+                         //TODO : Implement the command to Arduino
                         return true;
                     case MotionEvent.ACTION_UP:
                         insertData("RIGHT button released");
+                         //TODO : Implement the command to Arduino
                         return true;
                 }
                 return false;
@@ -115,9 +123,11 @@ public class Control extends AppCompatActivity {
                 switch(event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         insertData("STOP button pressed");
+                         //TODO : Implement the command to Arduino
                         return true;
                     case MotionEvent.ACTION_UP:
                         insertData("STOP button released");
+                         //TODO : Implement the command to Arduino
                         return true;
                 }
                 return false;
