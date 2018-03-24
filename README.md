@@ -5,7 +5,7 @@ The commands are sent to from android to arduino via a bluetooth module.
 
 ### Screenshots
 
-The main UI with the controls( left, right, forward, backward, stop)
+The main UI with the controls( left, right, forward, backward, stop and a button that views the database)
 
 <img src="https://user-images.githubusercontent.com/26908195/37524542-29bc471a-2950-11e8-8758-24d6610b9d83.png" width ="300" height = "500">
 
