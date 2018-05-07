@@ -3,7 +3,7 @@
 The application helps controlling arduino which in turns controls the directions.
 The commands are sent to from android to arduino via a bluetooth module.
 
-### Screenshots
+### Screenshot
 
 The main UI with the controls( left, right, forward, backward, stop and a button that views the database)
 
