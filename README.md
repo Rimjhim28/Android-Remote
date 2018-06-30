@@ -1,6 +1,6 @@
 # Android-Remote
 
-The android application helps controlling arduino which in turns controls the directions.
+The android application help controlling arduino which in turns controls the directions.
 The commands are sent to from android to arduino via a bluetooth module.
 
 ### Screenshot
